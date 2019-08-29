@@ -1,4 +1,6 @@
-This is a testing micro-framework for [Hy](http://docs.hylang.org/en/stable/).
+A testing micro-framework for [Hy](http://docs.hylang.org/en/stable/).
+
+Install it with `pip install hytmf`.
 
 To use it, wrap every `assert` in the `test-case` macro call like this:
 
