@@ -9,15 +9,15 @@ try:
 except:
    long_description = ''
 
-setup(name='hymtf',
+setup(name='hytmf',
       version='0.1',
       description='Micro-testing framework for Hy.',
       long_description=long_description,
       author='Chris McCormick',
       author_email='chris@mccormick.cx',
-      url='http://github.com/chr15m/hymtf',
-      packages=['hymtf'],
+      url='http://github.com/chr15m/hytmf',
+      packages=['hytmf'],
       package_data = {
-          'hymtf' : ['*.hy'],
+          'hytmf' : ['*.hy'],
       },
 )

@@ -17,7 +17,7 @@ Test: 	(assert (= True True))
 Pass:	✔
 Test: 	(assert (= False True))
 Traceback (most recent call last):
-  File "/home/chrism/dev/hymtf/virtualenv/bin/hy", line 10, in <module>
+  File "/home/chrism/dev/hytmf/virtualenv/bin/hy", line 10, in <module>
     sys.exit(hy_main())
   File "/home/chrism/.pyenv/versions/3.5.5/lib/python3.5/runpy.py", line 263, in run_path
     pkg_name=pkg_name, script_name=fname)
@@ -25,7 +25,7 @@ Traceback (most recent call last):
     mod_name, mod_spec, pkg_name, script_name)
   File "/home/chrism/.pyenv/versions/3.5.5/lib/python3.5/runpy.py", line 85, in _run_code
     exec(code, run_globals)
-  File "/home/chrism/dev/hymtf/testtest.hy", line 5, in <module>
+  File "/home/chrism/dev/hytmf/testtest.hy", line 5, in <module>
     (test-case (assert (= False True)))
 AssertionError
 ```
